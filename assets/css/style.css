@@ -59,11 +59,6 @@ p:last-child {
 
 /* main */
 
-#main-container {
-    padding-top: 130px;
-    min-height: calc(100vh - 70px);
-}
-
 .main-section {
     float: left;
     width: 100%;
@@ -72,7 +67,12 @@ p:last-child {
     margin: 0 0 40px;
     background: #ffffff;
     border: 1px solid #dddddd;
-  }
+    resize: horizontal;
+}
+#main-container {
+    padding-top: 130px;
+    min-height: calc(100vh - 70px);
+}
 
 /* main bio */
 
@@ -170,7 +170,6 @@ header {
     border-bottom: 2px solid #dddddd;
     width: 100%;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    margin: 0 0 30px;
     overflow: auto;
     top: 0;
 } 
@@ -193,7 +192,7 @@ nav a:first-child {
 }
 #name {
     float: left;
-    width: 250px;
+    width: auto;
     height: 90px;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 30px;
@@ -203,6 +202,7 @@ nav a:first-child {
     text-align: center;
     text-decoration: none;
     background: #4aaaa5;
+    padding-top: 0;
 }
 
 /* footer */
@@ -255,6 +255,7 @@ footer {
     /* main section */
 
     .main-section {
+        background-color: pink;
         font-size: 12px;
         margin-top: 40px;
         padding: 5px 15px;
@@ -295,11 +296,11 @@ footer {
         width: 100%;
         text-align: center;
     } 
-    #header-container nav {
+    #header-container a {
         float: none;
         width: 100%;
     }
-    #header-container a {
+    #header-container nav {
         float: none;
         width: 100%;
     }
@@ -318,7 +319,11 @@ footer {
     p {
         line-height: 2em;
     } 
+
+    /* main section */
+
     .main-section {
+        background-color: green;
         padding: 0 20px 20px 20px;
         margin-bottom: 15%;
         font-size: 12px;
@@ -346,16 +351,43 @@ footer {
     }
 }
 @media (min-width: 769px) and (max-width: 980px) {
+
+    /* general */
+
+    p {
+        line-height: 2em;
+    } 
+
+    /* main section */
     .main-section {
-        background-color: green;
-        margin-top: 12%;
-        font-size: 15px;
-        }
-    /* #name {
-        margin-left: 7%;
+        background-color: blue;
+        font-size: 13px;
+        margin-bottom: 15%;
+        width: 685px;
+        resize: vertical;
+        margin-left: 5%;
     }
-    .info-section {
-        margin-left: 60%;
-    } */
+
+    /* main bio */
+
+    .bio-image{
+        width: 150px;
+        height: auto;
+        margin-top: 10px;
+        margin-right: 25px;
+    }
+
+    /* header */
+
+    header {
+        height: 75px;
+    }
+    nav {
+        margin: 20px;
+    }
+    #name {
+        width: auto;
+        padding-top: 0;
+    }
 }
   
