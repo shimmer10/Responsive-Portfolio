@@ -22,30 +22,15 @@ h1 {
     line-height: 49px;
     border-bottom: 3px solid #dddddd;
     color: #4aaaa5;
-}
-h1,
-h2,
-h3 {
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-weight: 700;
-  color: #4aaaa5;
-}
-h1,
-h2,
-h3,
-p {
-  margin-bottom: 20px;
-}
-h2,
-h3 {
-  font-size: 22px;
-  padding-bottom: 20px;
-  margin-bottom: 15px;
-  line-height: 22px;
-  border-bottom: 2px solid #eeeeee;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: Georgia, Times, "Times New Roman", serif;
 }
 label { 
     padding: 5px;
+}
+p {
+    margin-bottom: 20px;
 }
 p:last-child {
     margin-bottom: 0;
@@ -116,20 +101,6 @@ p:last-child {
     height: 150px;
     display: block;
     border-radius: 50%;
-}
-  
-.portfolio-links h3 {
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 0;
-    font-weight: 300;
-    line-height: 30px;
-    color: #ffffff;
-    text-align: center;
-    background: #4aaaa5;
-    border-bottom: 0;
 }
 .portfolio-links:hover .overlay {
     opacity: 1;
@@ -227,14 +198,7 @@ footer {
 @media screen and (max-width: 640px) {
 
     /* general */
-    header {
-        position: fixed;
-        left: 0;
-        right: 0;
-        top: 0;
-        margin: auto;
-        width: 100%;
-    }
+
     h1 {
         padding-top: 0;
         padding-bottom: 2px;
@@ -290,17 +254,12 @@ footer {
 
     /* header */
 
-    #header-container {
-        overflow: hidden;
-        width: 100%;
-        text-align: center;
-    } 
-    #header-container a {
-        float: none;
-        width: 100%;
-    }
-    #header-container nav {
-        float: none;
+    header {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        margin: auto;
         width: 100%;
     }
     #name {
@@ -357,6 +316,7 @@ footer {
     } 
 
     /* main section */
+
     .main-section {
         font-size: 13px;
         margin-bottom: 15%;
