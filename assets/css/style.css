@@ -64,10 +64,10 @@ p:last-child {
     width: 100%;
     max-width: 960px;
     padding: 30px;
-    margin: 0 0 40px;
     background: #ffffff;
     border: 1px solid #dddddd;
     resize: horizontal;
+    margin-bottom: 10%;
 }
 #main-container {
     padding-top: 130px;
@@ -255,7 +255,6 @@ footer {
     /* main section */
 
     .main-section {
-        background-color: pink;
         font-size: 12px;
         margin-top: 40px;
         padding: 5px 15px;
@@ -323,7 +322,6 @@ footer {
     /* main section */
 
     .main-section {
-        background-color: green;
         padding: 0 20px 20px 20px;
         margin-bottom: 15%;
         font-size: 12px;
@@ -360,7 +358,6 @@ footer {
 
     /* main section */
     .main-section {
-        background-color: blue;
         font-size: 13px;
         margin-bottom: 15%;
         width: 685px;
