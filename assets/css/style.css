@@ -225,47 +225,84 @@ footer {
 /* media queries */
 
 @media screen and (max-width: 640px) {
+
+    /* general */
+
+    h1 {
+        padding-top: 0;
+        padding-bottom: 2px;
+    }
+    nav {
+        margin-right: 30%;
+        padding-bottom: 2px;
+    }
+    nav a {
+        padding-top: 0;
+        padding-bottom: 10px;
+    }
     p {
         margin: 0;
         line-height: 2em;
     }
-    #bio-image {
-        position: static;
-        padding-top: 10px;
+
+    /* main section */
+
+    .main-section {
+        font-size: 12px;
+        margin-top: 40px;
+        padding: 5px 15px;
+        margin-bottom: 100px;
     }
-    #header-section {
+
+    /* main bio */
+
+    .bio-image {
+        float: none;
+        margin: auto;
+        margin-left: 30%;
+    }
+
+    /* contact */
+
+    .button {
+        margin-bottom: 10px;
+    }
+    
+    /* portfolio */
+
+    .portfolio-links {
+        margin-left: 10%;
+        width: 100%;
+    }
+    .portfolio-links img {
+        width: 320px;
+        height: 320px;
+        display: block;
+        border-radius: 50%;
+    }
+
+    /* header */
+
+    #header-container {
         overflow: hidden;
         width: 100%;
+        text-align: center;
+    } 
+    #header-container nav {
+        float: none;
+        width: 100%;
     }
-    #main {
-        margin: 50px 10px;
-
-    }
-    #main-section {
-        background-color: blue;
-        font-size: 13px;
-        margin-top: 100px;
-        padding: 5px 15px;
+    #header-container a {
+        float: none;
+        width: 100%;
     }
     #name {
-        float: none;
-        width: 100%;
-    }
-    #header-section a {
-        float: none;
-        width: 100%;
-    }
-    /* .info-section a {
-        float: none;
         width: 100%;
         margin-left: 0;
-        padding: 0;
-    } */
-
-       
+    }
 }
 @media (min-width: 641px) and (max-width: 768px) {
-    p {
+    /* p {
         line-height: 2em;
     }
     #header-navbar {
@@ -276,8 +313,8 @@ footer {
     }
     #line {
         margin-bottom: 10px;
-    }
-    #main-section {
+    } */
+    .main-section {
         background-color: red;
         margin-top: 15%;
         margin-bottom: 15%;
@@ -285,22 +322,22 @@ footer {
         font-size: 14px;
         padding: 5px 20px;
     }
-    #name {
+    /* #name {
         margin-left: 5%;
         padding: 0 20px;
-    }
+    } */
 }
 @media (min-width: 769px) and (max-width: 980px) {
-    #main-section {
+    .main-section {
         background-color: green;
         margin-top: 12%;
         font-size: 15px;
         }
-    #name {
+    /* #name {
         margin-left: 7%;
     }
     .info-section {
         margin-left: 60%;
-    }
+    } */
 }
   
