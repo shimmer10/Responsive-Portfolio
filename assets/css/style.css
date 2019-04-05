@@ -227,7 +227,14 @@ footer {
 @media screen and (max-width: 640px) {
 
     /* general */
-
+    header {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        margin: auto;
+        width: 100%;
+    }
     h1 {
         padding-top: 0;
         padding-bottom: 2px;
@@ -302,30 +309,41 @@ footer {
     }
 }
 @media (min-width: 641px) and (max-width: 768px) {
-    /* p {
+
+    /* general */
+
+    h1 {
+        padding-top: 0;
+    }
+    p {
         line-height: 2em;
-    }
-    #header-navbar {
-        height: 60px;
-    }
-    .info-section {
-        margin-left: 55%;
-    }
-    #line {
-        margin-bottom: 10px;
-    } */
+    } 
     .main-section {
-        background-color: red;
-        margin-top: 15%;
+        padding: 0 20px 20px 20px;
         margin-bottom: 15%;
-        resize: horizontal;
-        font-size: 14px;
-        padding: 5px 20px;
+        font-size: 12px;
     }
-    /* #name {
-        margin-left: 5%;
-        padding: 0 20px;
-    } */
+     
+    /* header */
+
+    header {
+        height: 80px;
+    }
+    nav {
+        margin: 20px;
+    }
+    #name {
+        width: auto;
+        text-align: center;
+        padding-top: 0;
+    }
+
+    /* contact */
+
+    input {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 }
 @media (min-width: 769px) and (max-width: 980px) {
     .main-section {
