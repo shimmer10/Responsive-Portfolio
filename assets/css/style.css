@@ -53,6 +53,7 @@ p:last-child {
     border: 1px solid #dddddd;
     resize: horizontal;
     margin: 0 0 40px;
+    margin-bottom: 15%;
 }
 #main-container {
     padding-top: 130px;
