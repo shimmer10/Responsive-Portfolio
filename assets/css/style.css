@@ -67,6 +67,7 @@ p:last-child {
     height: auto;
     margin-top: 10px;
     margin-right: 25px;
+    border-radius: 8px;
 }
 
 /* portfolio */
@@ -200,16 +201,13 @@ footer {
     /* general */
 
     h1 {
-        padding-top: 0;
         padding-bottom: 2px;
     }
     nav {
         margin-right: 30%;
-        padding-bottom: 2px;
     }
     nav a {
         padding-top: 0;
-        padding-bottom: 10px;
     }
     p {
         margin: 0;
@@ -223,6 +221,8 @@ footer {
         margin-top: 40px;
         padding: 5px 15px;
         margin-bottom: 100px;
+        max-width: 500px;
+        margin-left: 50px;
     }
 
     /* main bio */
@@ -241,8 +241,11 @@ footer {
     
     /* portfolio */
 
+    .overlay {
+        width: 320px;
+    }
     .portfolio-links {
-        margin-left: 10%;
+        margin-left: 5%;
         width: 100%;
     }
     .portfolio-links img {
@@ -255,25 +258,16 @@ footer {
     /* header */
 
     header {
-        position: fixed;
-        left: 0;
         right: 0;
-        top: 0;
-        margin: auto;
-        width: 100%;
     }
     #name {
         width: 100%;
-        margin-left: 0;
     }
 }
 @media (min-width: 641px) and (max-width: 768px) {
 
     /* general */
 
-    h1 {
-        padding-top: 0;
-    }
     p {
         line-height: 2em;
     } 
@@ -284,6 +278,8 @@ footer {
         padding: 0 20px 20px 20px;
         margin-bottom: 15%;
         font-size: 12px;
+        max-width: 700px;
+        margin-left: 27px;
     }
      
     /* header */
@@ -293,11 +289,6 @@ footer {
     }
     nav {
         margin: 20px;
-    }
-    #name {
-        width: auto;
-        text-align: center;
-        padding-top: 0;
     }
 
     /* contact */
@@ -319,9 +310,9 @@ footer {
 
     .main-section {
         font-size: 13px;
+        margin-top: 5%;
         margin-bottom: 15%;
         width: 685px;
-        resize: vertical;
         margin-left: 5%;
     }
 
@@ -329,21 +320,17 @@ footer {
 
     .bio-image{
         width: 150px;
-        height: auto;
-        margin-top: 10px;
-        margin-right: 25px;
     }
 
     /* header */
 
     header {
-        height: 75px;
+        height: 80px;
     }
     nav {
         margin: 20px;
     }
     #name {
-        width: auto;
         padding-top: 0;
     }
 }
